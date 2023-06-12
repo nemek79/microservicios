@@ -1,0 +1,12 @@
+# HTTP Server
+server:
+  port: 8889
+
+spring:
+  # Spring Cloud Config Server Repository
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/nemek79/SpringCloudConfig-GitRepository.git
+
